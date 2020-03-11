@@ -1,0 +1,4 @@
+- Getting started
+- Admin commands
+- Boards
+- Commands
