@@ -1,4 +1,5 @@
-- Getting started
-- Admin commands
-- Boards
-- Commands
+- [Home](https://github.com/ccev/Discordopole/wiki)
+- [Getting started](https://github.com/ccev/Discordopole/wiki/Getting-Started)
+- [Admin commands](https://github.com/ccev/Discordopole/wiki/Admin-commands)
+- [Boards](https://github.com/ccev/Discordopole/wiki/Boards)
+- [Commands](https://github.com/ccev/Discordopole/wiki/Commands)
