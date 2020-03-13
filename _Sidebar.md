@@ -1,5 +1,4 @@
 - [Home](https://github.com/ccev/Discordopole/wiki)
-- [Getting Started](https://github.com/ccev/Discordopole/wiki/Getting-Started)
 - [Admin Commands](https://github.com/ccev/Discordopole/wiki/Admin-Commands)
 - [Boards](https://github.com/ccev/Discordopole/wiki/Boards)
 - [Commands](https://github.com/ccev/Discordopole/wiki/Commands)
