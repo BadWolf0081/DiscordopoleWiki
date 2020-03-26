@@ -1,15 +1,15 @@
 ## Contents
-- !board
-  - delete
-  - create
-    - raid
-    - egg
-    - raidchannel
-    - stats
-    - quest
-- !get
-  - emotes
-  - updates
+- [!board](https://github.com/ccev/Discordopole/wiki/Admin-Commands#board)
+  - [delete](https://github.com/ccev/Discordopole/wiki/Admin-Commands#board-delete)
+  - [create](https://github.com/ccev/Discordopole/wiki/Admin-Commands#board-create)
+    - [raid](https://github.com/ccev/Discordopole/wiki/Admin-Commands#board-create-raid)
+    - [egg](https://github.com/ccev/Discordopole/wiki/Admin-Commands#board-create-egg)
+    - [raidchannel](https://github.com/ccev/Discordopole/wiki/Admin-Commands#board-create-raidchannel)
+    - [stats](https://github.com/ccev/Discordopole/wiki/Admin-Commands#board-create-stats)
+    - [quest](https://github.com/ccev/Discordopole/wiki/Admin-Commands#board-create-quest)
+- [!get](https://github.com/ccev/Discordopole/wiki/Admin-Commands#get)
+  - [emotes](https://github.com/ccev/Discordopole/wiki/Admin-Commands#get-emotes)
+  - [updates](https://github.com/ccev/Discordopole/wiki/Admin-Commands#get-updates)
 
 # Admin Commands
 
