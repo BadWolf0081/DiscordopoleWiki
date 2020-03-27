@@ -1,16 +1,26 @@
 ## Contents
-- Raid Boards
-- Egg Boards
-- Stat Boards
-- Quest Boards
-- Raid Channels
+- [Raid Boards](https://github.com/ccev/Discordopole/wiki/Boards#raid-boards)
+  - [Limits](https://github.com/ccev/Discordopole/wiki/Boards#limits)
+  - [JSON](https://github.com/ccev/Discordopole/wiki/Boards#json)
+- [Egg Boards](https://github.com/ccev/Discordopole/wiki/Boards#egg-boards)
+  - [Limits](https://github.com/ccev/Discordopole/wiki/Boards#limits-1)
+  - [JSON](https://github.com/ccev/Discordopole/wiki/Boards#json-1)
+- [Stat Boards](https://github.com/ccev/Discordopole/wiki/Boards#stat-boards)
+  - [JSON](https://github.com/ccev/Discordopole/wiki/Boards#json-2)
+  - [Possible Stats](https://github.com/ccev/Discordopole/wiki/Boards#possible-stats)
+- [Quest Boards](https://github.com/ccev/Discordopole/wiki/Boards#quest-boards)
+  - [Limits](https://github.com/ccev/Discordopole/wiki/Boards#limits-2)
+  - [JSON](https://github.com/ccev/Discordopole/wiki/Boards#json-3)
+- [Raid Channels](https://github.com/ccev/Discordopole/wiki/Boards#raid-channels)
+  - [Limits](https://github.com/ccev/Discordopole/wiki/Boards#limits-3)
+  - [JSON](https://github.com/ccev/Discordopole/wiki/Boards#json-4)
 
 # Boards
 Boards are a nice way to present information to your users, while staying compact and clear.
 
 Every Board is stored in config/boards.json. To create or delete Boards, it's best to use [`!board`](https://github.com/ccev/Discordopole/wiki/Admin-Commands#board). Every board is stored in config/boards.json, so you can use this file to refine and edit already existing Boards.
 
-Since Discord has a 2048 character limit for messages, some Boards can only show so many things at once. Depending on how large your area is, you might have to split it up. This page gives an overview for how much each Board can cover. Personally, I scan a town with a size of 50km², ~100 Gyms and ~600 Stops with 10 MAD Workers and one Board each is enough.
+Since Discord has a 2048 character limit for messages, most Boards can only show so many things at once. Depending on how large your area is, you might have to split it up. This page gives an overview for how much each Board can cover. Personally, I scan a town with a size of 50km², ~100 Gyms and ~600 Stops with 10 MAD Workers and one Board each is enough.
 
 ## Raid Boards
 Raid Boards summarize active Raids to their most important information and display them in a single embed. This includes the Gym name, whether it's ex eligible or not, end time, the Pokemon's name, the beginning letter of its form (if needed) and its moveset. They're sorted by end time, so the longest lasting Raid is at the bottom.
@@ -114,11 +124,11 @@ An Egg message includes the Egg's icon and name (e.g. "Level 3 Egg"), the Gym's 
 
 ![](https://cdn.discordapp.com/attachments/523253670700122144/693077323909431326/unknown.png)
 
+### Limits
+The only thing that limits Raid Channels are the Discord API limits. So you should be able to cover a *huge* area with a single Raid Board.
+
 ### JSON
 - **channel_id**: The ID of the channel the message is in
 - **area**: The area's name. Needs to 1:1 match the area in geofence.json
 - **wait**: Seconds to wait after going through all Raids and updating the Channel accordingly. Defaults to 15
 - **levels**: Raid Levels included in the Raid Channel
-
-### Limits
-The only thing that limits Raid Channels are the Discord API limits. So you should be able to cover a *huge* area with a single Raid Board.
