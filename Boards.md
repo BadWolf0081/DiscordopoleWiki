@@ -1,19 +1,10 @@
 ## Contents
 - [Raid Boards](https://github.com/ccev/Discordopole/wiki/Boards#raid-boards)
-  - [Limits](https://github.com/ccev/Discordopole/wiki/Boards#limits)
-  - [JSON](https://github.com/ccev/Discordopole/wiki/Boards#json)
 - [Egg Boards](https://github.com/ccev/Discordopole/wiki/Boards#egg-boards)
-  - [Limits](https://github.com/ccev/Discordopole/wiki/Boards#limits-1)
-  - [JSON](https://github.com/ccev/Discordopole/wiki/Boards#json-1)
 - [Stat Boards](https://github.com/ccev/Discordopole/wiki/Boards#stat-boards)
-  - [JSON](https://github.com/ccev/Discordopole/wiki/Boards#json-2)
   - [Possible Stats](https://github.com/ccev/Discordopole/wiki/Boards#possible-stats)
 - [Quest Boards](https://github.com/ccev/Discordopole/wiki/Boards#quest-boards)
-  - [Limits](https://github.com/ccev/Discordopole/wiki/Boards#limits-2)
-  - [JSON](https://github.com/ccev/Discordopole/wiki/Boards#json-3)
 - [Raid Channels](https://github.com/ccev/Discordopole/wiki/Boards#raid-channels)
-  - [Limits](https://github.com/ccev/Discordopole/wiki/Boards#limits-3)
-  - [JSON](https://github.com/ccev/Discordopole/wiki/Boards#json-4)
 
 # Boards
 Boards are a nice way to present information to your users, while staying compact and clear.
