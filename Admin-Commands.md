@@ -14,7 +14,9 @@
 # Admin Commands
 
 ## !board
-The `!board` command allows you to quickly create or delete [Boards](TODO:LINK) without having to edit boards.json.
+The `!board` command allows you to quickly create or delete [Boards](https://github.com/ccev/Discordopole/wiki/Boards) without having to edit boards.json.
+
+Each Board has its own detailed Wiki entry. For more information on specific Boards, visit that.
 
 ### !board delete
 Delete a Board using its Message ID. This will delete both the message itself as well as the entry in boards.json.
@@ -28,31 +30,31 @@ Without further arguments, this command will create a message containing its Cha
     !board create
 
 ### !board create raid
-Creates a Raid Board and puts the Channel ID, Message ID, Area name and tracked Levels in boards.json.
+Creates a [**Raid Board**](https://github.com/ccev/Discordopole/wiki/Boards#raid-boards) and puts the Channel ID, Message ID, Area name and tracked Levels in boards.json.
 
     !board create raid [Area Name] [Levels]
     !board create raid berlin 1,3,5
 
 ### !board create egg
-Creates an Egg Board and puts the Channel ID, Message ID, Area name and tracked Levels in boards.json.
+Creates an [**Egg Board**](https://github.com/ccev/Discordopole/wiki/Boards#egg-boards) and puts the Channel ID, Message ID, Area name and tracked Levels in boards.json.
 
     !board create egg [Area Name] [Levels]
     !board create egg tokyo 1,2
 
 ### !board create raidchannel
-Creates a new Channel and turns it into a Raid Channel. It puts the Channel ID, Area name and tracked Levels in boards.json.
+Creates a new Channel and turns it into a [**Raid Channel**](https://github.com/ccev/Discordopole/wiki/Boards#raid-channels). It puts the Channel ID, Area name and tracked Levels in boards.json.
 
     !board create raidchannel [Channel Name] [Area Name] [Levels]
     !board create raidchannel lvl5-raids denver 5
 
 ### !board create stats
-Creates a Stat Board and puts the Channel ID, Message ID, Area name and wanted Stats in boards.json. When defining the Stats, spaces are allowed as long as every stat is seperated by a comma. It's also "smart", so it won't need the exact stat names.
+Creates a [**Stat Board**](https://github.com/ccev/Discordopole/wiki/Boards#stat-boards) and puts the Channel ID, Message ID, Area name and wanted Stats in boards.json. When defining the Stats, spaces are allowed as long as every stat is seperated by a comma. It's also "smart", so it won't need the exact stat names.
 
     !board create stats [Area Name] [Stats]
     !board create stats rio mon active, mon today,active raids, egg ,gym amount
 
 ### !board create quest
-Creates a Quest Board and puts the Channel ID, Message ID, Area name and wanted rewards in boards.json. It will also import one emote for each reward in your trash server.
+Creates a [**Quest Board**](https://github.com/ccev/Discordopole/wiki/Boards#quest-boards) and puts the Channel ID, Message ID, Area name and wanted rewards in boards.json. It will also import one emote for each reward in your trash server.
 
 Every reward needs to be seperated by a comma. Items need to 1:1 match the actual item names, Mon names are corrected.
 
