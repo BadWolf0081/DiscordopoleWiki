@@ -25,3 +25,11 @@ About 25 Raids. Enough for an area of around 150 Gyms.
 - **wait**: Seconds to wait after updating the Board. Defaults to 15
 - **levels**: Raid Levels included in the Raid Board
 - **ex**: Only show EX Gyms or not (True/False)
+
+## Egg Boards
+
+## Stat Boards
+
+## Quest Boards
+
+## Raid Channels
