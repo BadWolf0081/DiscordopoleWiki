@@ -1,5 +1,5 @@
 ## Contents
-- [Static Maps]()
+- [Static Maps](https://github.com/ccev/Discordopole/wiki/Misc#static-maps)
 
 # Misc
 
