@@ -14,6 +14,8 @@ The config allows to set your own aliases for each command. Those aliases are ju
 
 `!pokemon` is used to get statistics of a specific Pokemon. This includes Shiny rate, 100% IV count, different factors for rarity and more.
 
+![](https://media.discordapp.net/attachments/523253670700122144/695726580265254922/unknown.png)
+
 ### Arguments
 - The **Mon Name** is the only required argument and used to specify the Pokemon you want its Stats of. It has a built in "autocorrection" so it will try to match the given name to any Pokemon, even if it's written wrong
 - The **Area** has to match a set area in geofence.json 1:1 and can be used without a timeframe. If the given area does not match any configured areas, it will default to no area filter
@@ -25,6 +27,8 @@ The config allows to set your own aliases for each command. Those aliases are ju
 
 `!gyms` shows basic Gym Stats of your configured area. That includes the total gym count, EX Gym ratio and active Raids. Additionally, it also has a pie chart that shows how many gyms each team owns.
 
+![](https://media.discordapp.net/attachments/523253670700122144/695726945131954206/unknown.png)
+
 ## !quest
     !quest [Area] [reward]
     !quest nairobi spinda
@@ -32,3 +36,5 @@ The config allows to set your own aliases for each command. Those aliases are ju
 `!quest` basically works the same as a [Quest Board](https://github.com/ccev/Discordopole/wiki/Boards#quest-boards) with the difference that it can only show one reward. That reward can be both an item or a Pokemon. The item has to match theactual item name 1:1.
 
 Note that the command will temporarily upload an emote to your trsh server.
+
+![](https://media.discordapp.net/attachments/523253670700122144/695726882993209344/unknown.png)
