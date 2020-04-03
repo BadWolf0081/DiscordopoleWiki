@@ -2,3 +2,4 @@
 - [Admin Commands](https://github.com/ccev/Discordopole/wiki/Admin-Commands)
 - [Boards](https://github.com/ccev/Discordopole/wiki/Boards)
 - [Commands](https://github.com/ccev/Discordopole/wiki/Commands)
+- [Misc](https://github.com/ccev/Discordopole/wiki/Misc)
