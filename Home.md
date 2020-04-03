@@ -63,7 +63,8 @@ Discordopole sometimes uses custom emotes to make messages more beautiful. To us
 - **`map_url`**: The URL to your Map
 
 ### Commands
-- Aliases for all Commands if you want to change them
+- **`required_roles` `channels`**: Role and/or channel requirements for all commands
+- **`pokemon_aliases` `gyms_aliases` `quest_aliases`** Aliases for all commands
 
 ### DB
 - **`scanner_db_schema`**: MAD or RDM (`mad/rdm`)
